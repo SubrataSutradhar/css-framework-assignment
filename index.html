@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold" href="#">Tech Hero</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,9 +35,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Register</a>
                         </li>
 
                         <form class="d-flex" role="search">
@@ -281,6 +278,52 @@
             </div>
         </section>
         <!-- Explore elearning end -->
+
+        <!-- Modal -->
+        <section class="row row-cols-1 m-5 row-cols-md-1 bg-primary row-cols-lg-2 g-4 d-flex">
+            <div class="col-md-8 text-white">
+                <h1>Ready to join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div>
+                <div class="col-md-4 m-5">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn col-md-12 m-5 btn-primary mb-5 text-primary bg-white"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">About web Developer</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    A web developer is a programmer who develops World Wide Web applications using a
+                                    client–server model. The applications typically use HTML, CSS and JavaScript in the
+                                    client, PHP, ASP.NET, Python, Node.js, Go or Java in the server, and http for
+                                    communications between client and server.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+        </section>
 
 
 
